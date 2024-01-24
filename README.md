@@ -48,10 +48,6 @@ This script loads pre-trained models and label encoders, loads and preprocesses 
 - Loading and preprocessing an input image.
 - Making predictions and mapping them to class labels.
 
-### Important Note
-
-Please note that the models, preprocessed data, and raw data files are not included in this repository due to file size constraints. You must obtain or generate these files separately to use the project effectively.
-
 ## Usage
 
 ### 1. Clone this repository to your local machine:
@@ -60,7 +56,7 @@ Please note that the models, preprocessed data, and raw data files are not inclu
    ```
 ### 2. Data Preparation
 #### Raw Data
-  Obtain the raw data for your specific Toyota Innovation Challenge task. Ensure that the data is structured according to   your project's requirements.
+  Obtain images for hole/sticker detection. A top-down view is necessary, with naming for classification of data type. Ensure that the data is structured according to   your project's requirements.
 #### Data Preprocessing
   1. Make sure that you have all the required python libraries installed.
   2. Use data_preprocessing.py to preprocess your raw data
